@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "dev": ""
+    "dev": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/danamulyana/clubFinder-dicoding.git"
   },
-  "author": "",
+  "author": "dana mulyana",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/danamulyana/clubFinder-dicoding/issues"
